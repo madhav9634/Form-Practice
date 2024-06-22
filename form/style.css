@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    /* background: #f3f1f1; */
+    border: 1px solid #231a0b;
+    padding: 10px;
+}
+.container {
+    width: 32rem;
+    height: 40rem;
+    background-color: #f79c4c;
+    padding: 2rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    color: #363535;
+    box-shadow: 2px 3px 14px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border-bottom: 2px solid rgb(49, 51, 49);
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    margin: .7rem 0 0 0;
+    margin-bottom: 1rem;
+    font-size: .92rem;
+    padding: .6rem;
+    border: none;
+    transition: all .5s;
+    box-shadow: .6px 1px 4px;
+}
+
+#radio {
+    margin: 1rem 0;
+
+}
+.ankor{
+    text-decoration: none;
+    font-size: 1.6rem;
+    background-color:rgb(3, 171, 3);
+    color: rgb(76, 75, 75);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.ankor:hover{
+    background-color: rgb(73, 174, 5);
+    transition: 0.5s;
+}
